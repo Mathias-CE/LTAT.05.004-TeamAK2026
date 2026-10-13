@@ -334,6 +334,6 @@ form > div + div {
 }
 
 /* General sibling: links after the heading get the blue from Figure 3 (login.html) */
-form.login h1 ~ a {
+form.login h2 ~ a {
     color: #1a6fd1;
 }
