@@ -16,7 +16,12 @@ fetch(url)
 
     const time = document.createElement("time"); //<time>
     time.dateTime = post.createdAt;
-    time.textContent = post.createdAt;
+    time.textContent = new Date(post.createdAt).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "short",
+      day: "2-digit",
+      timeZone: "UTC",
+    });
 
     header.append(author, time); //add author and time to header
     article.append(header);
