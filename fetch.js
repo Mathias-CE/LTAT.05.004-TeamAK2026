@@ -1,9 +1,9 @@
 //const url = "https://api.npoint.io/10e6eebe9ffc26b04435";
 const url = "object.json";
 
-fetch(url)
-.then(response => response.json())
-.then(posts => {
+fetch(url) //request file
+.then(response => response.json()) //parse response
+.then(posts => { 
   const section = document.querySelector("section"); // container
 
   posts.forEach(post => {
