@@ -1,11 +1,13 @@
-<script setup></script>
+<script setup>
+import FooterBar from './components/FooterBar.vue';
+import HeaderBar from './components/HeaderBar.vue';
+
+</script>
 
 <template>
-  <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/signup">Signup</RouterLink>
-  </nav>
-  <RouterView />
+    <HeaderBar />
+    <RouterView />
+    <FooterBar />
 </template>
 
 <style scoped></style>
