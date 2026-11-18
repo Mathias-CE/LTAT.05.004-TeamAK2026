@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "author": "Toora Berg",
+    "createdAt": "2026-10-01",
+    "image": "https://tartu2024.ee/wp-content/uploads/2025/02/maamark-0009-3U5A5915-2560x1707.jpg",
+    "imageAlt": "Town square in Tartu",
+    "text": "Tartu 2022",
+    "likes": 112
+  },
+  {
+    "id": 2,
+    "author": "Hans Luup",
+    "createdAt": "2026-09-21",
+    "image": null,
+    "imageAlt": null,
+    "text": "Which bar has the best prices for students in Tartu?",
+    "likes": 4
+  },
+  {
+    "id": 3,
+    "author": "Kelly Mägi",
+    "createdAt": "2026-09-01", 
+    "image": null,
+    "imageAlt": null,
+    "text": "hello!",
+    "likes": 1
+  },
+  {
+    "id": 4,
+    "author": "Marten Põder",
+    "createdAt": "2026-04-11",
+    "image": null,
+    "imageAlt": null,
+    "text": "we have test today yes?",
+    "likes": 999
+  },
+  {
+    "id": 5,
+    "author": "Alexander Madal",
+    "createdAt": "2026-04-02",
+    "image": "https://paultan.org/image/2023/05/toyota-supra-mk4-6-1200x650.jpg",
+    "imageAlt": "Car",
+    "text": "Saw a cool silver toyota today in the school parking lot..",
+    "likes": 234000
+  },
+  {
+    "id": 6,
+    "author": "Karl Suur",
+    "createdAt": "2026-04-02",
+    "image": null,
+    "imageAlt": null,
+    "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit.",
+    "likes": 22
+  },
+  {
+    "id": 7,
+    "author": "Julius Caesar",
+    "createdAt": "2026-04-02",
+    "image": null,
+    "imageAlt": null,
+    "text": "Consectetur adipiscing elit quisque faucibus ex sapien vitae.",
+    "likes": 66
+  },
+  {
+    "id": 8,
+    "author": "Napoleon",
+    "createdAt": "2026-04-02",
+    "image": null,
+    "imageAlt": null,
+    "text": "Ex sapien vitae pellentesque sem placerat in id.",
+    "likes": 31
+  },  
+  {
+    "id": 9,
+    "author": "Bemmivend",
+    "createdAt": "2026-04-02",
+    "image": null,
+    "imageAlt": null,
+    "text": "Placerat in id cursus mi pretium tellus duis..",
+    "likes": 11
+  },
+  {
+    "id": 10,
+    "author": "Andrus",
+    "createdAt": "2026-04-02",
+    "image": null,
+    "imageAlt": null,
+    "text": "Pretium tellus duis convallis tempus leo eu aenean.",
+    "likes": 100
+  }
+]
