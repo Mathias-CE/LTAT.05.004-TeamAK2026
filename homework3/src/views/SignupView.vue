@@ -21,7 +21,7 @@ const errors = computed(() => {
   }
 
   if (!/[0-9]/.test(p)) {
-    list.push("Include at least one numeric value")
+    list.push("Includes at least one numeric value")
   }
 
   if (!/^[A-Z]/.test(p)) {
@@ -59,3 +59,62 @@ function signup() {
     <button type="submit">Signup</button>
   </form>
 </template>
+
+<style scoped>
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px 14px;
+  align-items: center;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px 28px;
+  background: #eef3e2;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+label {
+  text-align: right;
+  font-size: 14px;
+}
+
+input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #8aa9db;
+}
+
+.error {
+  grid-column: 1 / -1;
+  color: #b00020;
+  font-size: 13px;
+}
+
+.error p {
+  margin: 4px 0;
+}
+
+button {
+  grid-column: 1 / -1;
+  justify-self: center;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 16px;
+  background: #8aa9db;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6f8fc4;
+}
+</style>
